@@ -6,14 +6,6 @@ import Ting from './ting.js';
 import {Router, Route, browserHistory, Link} from 'react-router';
 import './css/index.css';
 
-// var TodoComponent = React.createClass({
-//   render: function() {
-//     return (
-//       <h1>Beep</h1>
-//     );
-//   }
-// });
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -87,8 +79,4 @@ class TodoComponent extends React.Component {
   }
 }
 
-const dis_ting = {
-  ting: 'strapped',
-  other_ting: 'not strapped',
-}
 ReactDOM.render(<App />, document.getElementById('todo-wrapper'));
